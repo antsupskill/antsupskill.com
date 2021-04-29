@@ -1,0 +1,6 @@
+$theme-colors: (
+	'ants-blue': #256fb4,
+	'ants-purple': #5d56c3
+);
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/node_modules/bootstrap-vue/src/index.scss';
