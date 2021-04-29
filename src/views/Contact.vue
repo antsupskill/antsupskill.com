@@ -4,14 +4,16 @@
       <b-row no-gutters>
         <b-col
           align-self="center"
-          class="text-white mx-7rem"
+          class="text-white"
           style="font-family: 'Rajdhani', sans-serif"
           md="6"
         >
-          <h1>Contact Us</h1>
-          <h2>How can we help you out?</h2>
+          <div class="mx-7rem">
+            <h1>Contact Us</h1>
+            <h2>How can we help you out?</h2>
+          </div>
         </b-col>
-        <b-col class="my-2 p-1 d-flex justify-content-center" md="6">
+        <b-col class="my-2 d-flex justify-content-center" md="6">
           <b-img fluid :src="
 							require('/src/assets/img/contact-header-right.png')
 						"></b-img>
